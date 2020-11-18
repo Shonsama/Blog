@@ -1,6 +1,7 @@
 ---
 title: A Simple Guideline to build your own Blog
 tag: [Hexo, Blog]
+categories: 勉強力
 index_img: /img/index/Hexo.png
 ---
 Welcome to My Blog! This is my very first post. In this post, a simple guideline of using Hexo and fluid to build and beatify your own Blog will be provided. If you have any question, please don't hesitate to leave comment below.
@@ -69,7 +70,7 @@ $ hexo d
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 ## Using Theme Fluid
-### install Fluid
+### Install Fluid
 If your Hexo version >= 5.0.0, you can install Fluid via Npm:
 ``` bash
 $ npm install --save hexo-theme-fluid
