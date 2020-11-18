@@ -1,7 +1,7 @@
 ---
 title: A Simple Guideline to build your own Blog
 tag: [Hexo, Blog]
-
+index_img: /img/index/Hexo.png
 ---
 Welcome to My Blog! This is my very first post. In this post, a simple guideline of using Hexo and fluid to build and beatify your own Blog will be provided. If you have any question, please don't hesitate to leave comment below.
 

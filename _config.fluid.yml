@@ -116,7 +116,7 @@ dark_mode:
   # 默认的选项（当用户手动切换后则不再按照默认模式），选择 `auto` 会优先遵循 prefers-color-scheme，其次按用户本地时间 18 点到次日 6 点之间进入暗色模式
   # Default option (when the visitor switches manually, the default mode is no longer followed), choosing `auto` will give priority to prefers-color-scheme, and then enter the dark mode from 18:00 to 6:00 in the visitor’s local time
   # Options: auto | light | dark
-  default: auto
+  default: dark
 
 # 主题颜色配置，其他不生效的地方请使用自定义 css 解决，配色可以在下方链接中获得启发
 # Theme color, please use custom CSS to solve other colors, color schema can be inspired by the links below
@@ -459,7 +459,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page through `hexo new page`
 page:
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -469,7 +469,7 @@ page:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -598,9 +598,9 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: fasle
     # Options: disqus | valine | gitalk | utterances | changyan | livere | remark42 | twikoo
-    type: disqus
+    type: gitalk
 
 
 #---------------------------
@@ -632,7 +632,7 @@ disqus:
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
-  disqusjs: true
+  disqusjs: fasle
   apikey:
 
 # Gitalk
@@ -706,7 +706,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -718,7 +718,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -743,7 +743,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/bg/tag.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -761,7 +761,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
@@ -780,7 +780,7 @@ about:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
