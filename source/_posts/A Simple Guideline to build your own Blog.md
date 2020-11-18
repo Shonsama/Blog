@@ -1,5 +1,5 @@
 ---
-title: A Simple Guideline to build your own Blog with Hexo and fluid
+title: A Simple Guideline to build your own Blog
 tag: [Hexo, Blog]
 
 ---
