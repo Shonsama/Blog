@@ -1,5 +1,6 @@
 ---
 title: A Simple Guideline to build your own Blog
+date: 2020-11-16 17:22:47
 tag: [Hexo, Blog, EN]
 categories: 勉強力
 index_img: /img/index/Hexo.png
