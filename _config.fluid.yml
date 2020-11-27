@@ -116,7 +116,7 @@ dark_mode:
   # 默认的选项（当用户手动切换后则不再按照默认模式），选择 `auto` 会优先遵循 prefers-color-scheme，其次按用户本地时间 18 点到次日 6 点之间进入暗色模式
   # Default option (when the visitor switches manually, the default mode is no longer followed), choosing `auto` will give priority to prefers-color-scheme, and then enter the dark mode from 18:00 to 6:00 in the visitor’s local time
   # Options: auto | light | dark
-  default: dark
+  default: auto
 
 # 主题颜色配置，其他不生效的地方请使用自定义 css 解决，配色可以在下方链接中获得启发
 # Theme color, please use custom CSS to solve other colors, color schema can be inspired by the links below
@@ -345,9 +345,8 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    Powered by <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -400,7 +399,7 @@ index:
 
   # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If empty, no image will be displayed
-  post_default_img:
+  post_default_img: /img/bg/default.jpg
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
@@ -459,7 +458,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page through `hexo new page`
 page:
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -469,7 +468,7 @@ page:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -706,7 +705,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -718,7 +717,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -743,7 +742,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -761,7 +760,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
@@ -780,7 +779,7 @@ about:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/vdysjx.png?w=1920&fmt=webp
+  banner_img: /img/bg/default.jpg
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
@@ -792,7 +791,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/default.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:

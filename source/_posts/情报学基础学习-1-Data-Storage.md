@@ -1,5 +1,5 @@
 ---
-title: 情报学基础学习-1.Data_Storage
+title: 情报学基础学习-1.Data Storage
 date: 2020-11-25 15:57:31
 tags: [CS, 一般入试, EN, ZN]
 categories: 勉強力
@@ -8,7 +8,7 @@ index_img: /img/index/CS.png
 # 1.1 Bits and Their Storage
 **Bits**: 0s and 1s
 ## Boolean Operation 
-There are there kinds of boolean operations.
+There are 3 kinds of boolean operations.
 - AND: A AND B is True, A is True and B is True
 - OR: A OR B is True, At least one of A and B is True
 - XOR: A XOR B is True, either A or B but not both
@@ -61,11 +61,11 @@ Additional memory devices including magnetic disks, CDs, DVDs, magnetic tapes, f
 - **Cons**: require mechanical motion and therefore require significantly more time to store and retrieve data than a machine’s main memory. Storage systems with moving parts are more prone to mechanical failures than solid state systems.
 
 ## Magnetic Systems
-TODO: 
+TODO
 ## Optical Systems
-TODO:
+TODO
 ## Flash Drives
-TODO: 
+TODO
 
 # 1.4 Representing Information as Bit Patterns
 ## Representing Text
