@@ -15,11 +15,7 @@ There are 3 kinds of boolean operations.
 
 ## Gates and Flip-Flop
 ### Gates:
-- AND:
-- OR:
-- XOR:
-- NOT:
-
+![Gates](/img/index/CS-overview/flip-flop.jpg)
 ### Flip-flop 
 A device to store a bit, constructed of gates.
 ## Hexadecimal Notation 十六进制记数法
@@ -27,7 +23,8 @@ Stream：A long string of bits (0s and 1s)
 Hard to read and comprehend. So we need a new shorthand notation to simplify the representation of the string, which is ***Hexadecimal Notation***.
 - Takes advantage of the fact that bit patterns within a machine tend to have lengths in multiples of four.
 - Represent Table 
-    - TODO:
+
+![Hexadecimal](/img/index/CS-overview/Hexadecimal.jpg)
 
 # 1.2 Main Memory
 A computer store a large number collection of ***circuits***(such as flip-flops), each storing a **single bit** .This bit reservoir is known as the machine’s ***main memory***.
@@ -61,7 +58,8 @@ Additional memory devices including magnetic disks, CDs, DVDs, magnetic tapes, f
 - **Cons**: require mechanical motion and therefore require significantly more time to store and retrieve data than a machine’s main memory. Storage systems with moving parts are more prone to mechanical failures than solid state systems.
 
 ## Magnetic Systems
-TODO
+**Examples**: magnetic disk, hard disk drive (HDD)
+
 ## Optical Systems
 TODO
 ## Flash Drives
