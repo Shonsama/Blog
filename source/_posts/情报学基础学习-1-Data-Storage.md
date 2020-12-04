@@ -59,9 +59,25 @@ Additional memory devices including magnetic disks, CDs, DVDs, magnetic tapes, f
 
 ## Magnetic Systems
 **Examples**: magnetic disk, hard disk drive (HDD)
+### How it works 
+![Magnetic Disk](/img/index/CS-overview/disk.jpg)
+
+- **Capacity:** depends on the number of platters and the density in which the tracks and sectors are placed.
+- **Performance:** evaluated by 4 factors,
+    - **seek time**
+    - **rotation delay** or **latency time**
+    - **access time**
+    - **transfer rate**
 
 ## Optical Systems
-TODO
+**Examples**:  compact disk (CD)
+**Construction:** 
+![CD](/img/index/CS-overview/CD.jpg)
+
+**Capacity:** depends on the number of platters and the density in which the tracks and sectors are placed.
+**Performance:** evaluated by 4 factors,
+
+
 ## Flash Drives
 TODO
 
