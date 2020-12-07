@@ -61,13 +61,17 @@ Additional memory devices including magnetic disks, CDs, DVDs, magnetic tapes, f
 **Examples**: magnetic disk, hard disk drive (HDD)
 ### How it works 
 ![Magnetic Disk](/img/index/CS-overview/disk.jpg)
-
-- **Capacity:** depends on the number of platters and the density in which the tracks and sectors are placed.
-- **Performance:** evaluated by 4 factors,
-    - **seek time**
-    - **rotation delay** or **latency time**
-    - **access time**
-    - **transfer rate**
+- 磁道 (track): 磁盘内部由无数圆圈构成，,这一圈圈圆圈被称为**磁道**。
+- 柱面 (cylinder): 一个磁盘存储系统由若干个磁盘构成，这个重叠的磁盘被称为**柱面**。
+- 扇区 (sector): 一个磁道包含很多数据，所以我们把一个磁道划分为若干个**扇区**，因为每个磁道包含的扇区都相同，所以最外层磁道的扇区的密度最小。
+- 容积 (Capacity): depends on 
+    - the number of platters and 
+    - the density in which the tracks and sectors are placed.
+- 性能 (Performance): evaluated by 4 factors,
+    - **Seek time**
+    - **Rotation delay** or **Latency time**
+    - **Access time**
+    - **Transfer rate**
 
 ## Optical Systems
 **Examples**:  compact disk (CD)
