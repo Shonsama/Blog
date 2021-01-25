@@ -1,7 +1,7 @@
 ---
 title: 情报学基础学习-1.Data Storage
 date: 2020-11-25 15:57:31
-tags: [CS, 一般入试, EN, ZN]
+tags: [CS, EN, ZN]
 categories: 勉強力
 index_img: /img/index/CS.png
 ---
@@ -62,22 +62,26 @@ Additional memory devices including magnetic disks, CDs, DVDs, magnetic tapes, f
 ### How it works 
 ![Magnetic Disk](/img/index/CS-overview/disk.jpg)
 - 磁道 (track): 磁盘内部由无数圆圈构成，,这一圈圈圆圈被称为**磁道**。
-- 柱面 (cylinder): 一个磁盘存储系统由若干个磁盘构成，这个重叠的磁盘被称为**柱面**。
+- 柱面 (cylinder): 一个磁盘存储系统由若干个磁盘构成，安排在同一根轴上，在这种情况下所有读写头一起移动，每当读写头重定位时，都可以访问一组新的磁道，这组**磁道**被称为**柱面**。
+    **注**: 在磁盘存储过程当中要注意尽量减少读写头重定位的次数。
 - 扇区 (sector): 一个磁道包含很多数据，所以我们把一个磁道划分为若干个**扇区**，因为每个磁道包含的扇区都相同，所以最外层磁道的扇区的密度最小。
+    **注**: 在大容量磁盘系统中，最外层磁道的扇区多于内侧磁道，这种技术被称为**区位记录**，相邻的磁道被统称为区，一个区的扇区数量相同。
 - 容积 (Capacity): depends on 
     - the number of platters and 
     - the density in which the tracks and sectors are placed.
-- 性能 (Performance): evaluated by 4 factors,
-    - **Seek time**
-    - **Rotation delay** or **Latency time**
-    - **Access time**
-    - **Transfer rate**
+- 性能 (Performance): 
+    - **Seek time**：读写头从一个磁道移动到另一个磁道的时间。
+    - **Rotation delay** or **Latency time**：读写头到达磁道之后，等到磁盘旋转到需要到达的扇区的时间。
+    - **Access time**：seek time 和 latency time 之和。
+    - **Transfer rate**：在磁盘上读出或写入数据的速率。
+    **注**：磁盘旋转 (rotate) 的速度影响磁盘存储时间和传输速率。
+    - 为了支持高速转动，磁盘系统的读写头并不与磁盘接触，而是悬浮在磁盘上。
 
 ## Optical Systems
 **Examples**:  compact disk (CD)
 **Construction:** 
 ![CD](/img/index/CS-overview/CD.jpg)
-
+- 为了使CD储存能力达到最大，采取统一的线性密度存储在整个螺旋形磁道 (spiraled track)上
 **Capacity:** depends on the number of platters and the density in which the tracks and sectors are placed.
 **Performance:** evaluated by 4 factors,
 
