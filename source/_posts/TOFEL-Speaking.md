@@ -21,6 +21,7 @@ People like to make friends with people who share same hobbies.
 In big city, it is much easier to find people share with same hobbies with you than in countryside.
 3. Conclusion: 
 living in a big city could help you make more friends.
+
 ## Set the detail with examples
 ### Make the announcement concreted:
 One of my hobbies is playing guitar, and In Shanghai there are lots of clubs about it. I join the club and find a lot of people share the hobby with me, we play guitar to each other and even in the public. I made a lot of friends there and have a lot of good time. 
