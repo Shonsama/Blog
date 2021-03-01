@@ -1,8 +1,8 @@
 ---
 title: TOFEL Speaking
 date: 2021-01-14 00:51:43
-categories: 勉強力
-tag: [TOFEL, EN]       
+categories: 英语
+tag: [TOFEL]       
 ---
 # Task 1 - Independent Speaking
 In this part, you need to choose and disscuss your point of view about a statement. And the answer guideline is as following:

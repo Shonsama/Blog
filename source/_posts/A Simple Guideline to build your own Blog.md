@@ -1,8 +1,8 @@
 ---
 title: A Simple Guideline to build your own Blog
 date: 2020-11-16 17:22:47
-tag: [Hexo, Blog, EN]
-categories: 勉強力
+tag: [Hexo, Blog]
+categories: 计算机
 index_img: /img/index/Hexo.png
 ---
 Welcome to My Blog! This is my very first post. In this post, a simple guideline of using Hexo and fluid to build and beatify your own Blog will be provided. If you have any question, please check the [Hexo offical document](https://hexo.io/docs/) and [Fluid offical document](https://hexo.fluid-dev.com/docs) for more detailed information.

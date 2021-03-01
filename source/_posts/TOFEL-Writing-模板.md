@@ -1,8 +1,8 @@
 ---
-title: TOFEL-Writing
+title: TOFEL Writing 模板
 date: 2021-02-07 13:59:00
-categories: 勉強力
-tag: [TOFEL, EN]
+categories: 英语
+tag: [TOFEL]
 ---
 # Task 1 - Integrated writing
 

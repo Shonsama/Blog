@@ -1,8 +1,8 @@
 ---
 title: 情报学基础学习-1.Data Storage
 date: 2020-11-25 15:57:31
-tags: [CS, EN, ZN]
-categories: 勉強力
+tags: [CS, Data]
+categories: 计算机
 index_img: /img/index/CS.png
 ---
 # 1.1 Bits and Their Storage
