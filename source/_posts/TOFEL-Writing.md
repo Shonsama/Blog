@@ -15,12 +15,12 @@ tag: [TOFEL, EN]
 　　Finally, the reading states that ( ), while the lecture claims that ( ). Thus the lecture refutes the last claim of the reading.
     
 # Task 2 - Independent writing
-Some people argue as if it is a general truth that a________.But to be frank, I cannot agree with them. There are numerous reasons why I hold no confidence on them, and I would explore only a few primary ones here. 
+Some people argue as if it is a general truth that a ________.But to be frank, I cannot agree with them. There are numerous reasons why I hold no confidence on them, and I would explore only a few primary ones here. 
 
-The main problem with this argument is that it is ignorant o the basic fact that（解释本段中心）
+The main problem with this argument is that it is ignorant o the basic fact that _______
 
-An other reason why I disagree with the above statement is that I believe that_______
+An other reason why I disagree with the above statement is that I believe that _______
 
-What is more, some students are interested in_______
+What is more, some students are interested in _______
 
 In a word, ______
